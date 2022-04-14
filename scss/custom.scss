@@ -1,2 +1,91 @@
 
 
+:root {
+    --main-color: 	#686664;
+    --secondary-color: #BABAB9;
+    --third-color: white;
+    --button-color: #81ad5a;
+}
+
+.main-color {
+    background-color: var(--main-color) !important;
+    color: white;
+}
+
+.secondary-color {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.third-color {
+    color: var(--third-color);
+}
+
+.opaque {
+    opacity: 0.5;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.button {
+    background-color: var(--button-color);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.button:hover {
+    background-color: var(--secondary-color)
+}
+
+.orbit-figure {
+    height: 80vh;
+    background-image: url('Images/CarouselImg1.jpg');
+    background-color: var(--third-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section {
+    margin-top: rem-calc(100);
+}
+
+.section-sm {
+    margin-top: rem-calc(50);
+    margin-bottom: 0;
+}
+
+.margin-sm {
+    margin: rem-calc(20);
+}
+
+.margin-xs {
+    margin: rem-calc(5);
+}
+
+.padding-sm {
+    padding-top: rem-calc(20);
+    padding-bottom: rem-calc(20);
+}
+
+.wh-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.media-object-section {
+    color: black;
+}
+
+img {
+    object-fit: cover;
+}
+
+a {
+    color: var(--button-color);
+}
+a:hover {
+    color: white;
+}

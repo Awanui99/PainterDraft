@@ -4,42 +4,320 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Painter Home</title>
+
     <link rel="stylesheet" href="css/app.css">
+
   </head>
   <body>
-    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+
+    <!-- NAVBAR -->
+    <!-- <div class="title-bar main-color" data-responsive-toggle="responsive-menu" data-hide-for="medium">
       <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
       <div class="title-bar-title">Menu</div>
     </div>
     
-    <div class="top-bar" id="responsive-menu">
-      <div class="top-bar-left">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li class="menu-text">Site Title</li>
-          <li class="has-submenu">
-            <a href="#0">One</a>
-            <ul class="submenu menu vertical" data-submenu>
-              <li><a href="#0">One</a></li>
-              <li><a href="#0">Two</a></li>
-              <li><a href="#0">Three</a></li>
-            </ul>
-          </li>
-          <li><a href="#0">Two</a></li>
-          <li><a href="#0">Three</a></li>
+    <div class="top-bar main-color" id="responsive-menu">
+      <div class="top-bar-left main-color">
+        <ul class="dropdown menu transparent align-left grid-y" data-dropdown-menu>
+          <li class="menu-text main-color">Brand*</li>
+          <li class="main-color"><a href="#0">Commercial</a></li>
+          <li class="main-color"><a href="#0">Residential</a></li>
+          <li class="main-color"><a href="#0">About Us</a></li>
+          <li class="main-color"><a href="#0">Decorating Advice</a></li>
+          <li class="main-color"><a href="#0">FAQs</a></li>
+          <li class="main-color"><a href="#0">Contact Us</a></li>
         </ul>
       </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-          <li><input type="search" placeholder="Search"></li>
-          <li><button type="button" class="button">Search</button></li>
+      <div class="top-bar-right main-color">
+        <ul class="menu main-color">
+          <li class="main-color"><a href="tel:" class="button">Call Us</a></li>
         </ul>
+      </div>
+    </div> -->
+
+    <div class="title-bar main-color" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+      <div class="title-bar-title">Menu</div>
+    </div>
+    
+    <div class="top-bar main-color" id="responsive-menu">
+      <div class="top-bar-left main-color">
+        <ul class="dropdown menu main-color" data-dropdown-menu>
+          <li class="menu-text main-color">Brand*</li>
+          <li class="main-color"><a href="#0">Commercial</a></li>
+          <li class="main-color"><a href="#0">Residential</a></li>
+          <li class="main-color"><a href="#0">About Us</a></li>
+          <li class="main-color"><a href="#0">Decorating Advice</a></li>
+          <li class="main-color"><a href="#0">FAQs</a></li>
+          <li class="main-color"><a href="#0">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right main-color">
+        <ul class="menu main-color">
+          <li class="main-color"><a href="tel:" class="button">Call Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CAROUSEL -->
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+      <div class="orbit-wrapper">
+        <div class="orbit-controls">
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+        </div>
+        <ul class="orbit-container">
+          <li class="is-active orbit-slide">
+            <figure class="orbit-figure">
+              <div class="grid-y wh-100 align-center-middle">
+                <div class="cell">
+                    <h1 class="text-center">Brand*</h1>
+                    <h4 class="text-center subheader">This is our brand</h4>
+                </div>  
+                <div class="cell grid-y align-center-middle">
+                  <a href="tel:" class="button align-self-middle">Contact Us</a>
+                </div>
+              </div>
+              <figcaption class="orbit-caption secondary-color opaque">Space, the final frontier.</figcaption>
+            </figure>
+          </li>
+          <li class="orbit-slide">
+            <figure class="orbit-figure">
+              <div class="grid-y wh-100 align-center-middle">
+                <div class="cell">
+                    <h1 class="text-center">I'm in the middle!</h1>
+                    <h4 class="text-center subheader">This is our brand</h4>
+                </div>  
+                <div class="cell grid-y align-center-middle">
+                  <a href="tel:" class="button align-self-middle">Contact Us</a>
+                </div>
+              </div>
+              <figcaption class="orbit-caption secondary-color opaque">Lets Rocket!</figcaption>
+            </figure>
+          </li>
+          <li class="orbit-slide">
+            <figure class="orbit-figure">
+              <div class="grid-y wh-100 align-center-middle">
+                <div class="cell">
+                    <h1 class="text-center">I'm in the middle!</h1>
+                    <h4 class="text-center subheader">This is our brand</h4>
+                </div>  
+                <div class="cell grid-y align-center-middle">
+                  <a href="tel:" class="button align-self-middle">Contact Us</a>
+                </div>
+              </div>
+              <figcaption class="orbit-caption secondary-color opaque">Encapsulating</figcaption>
+            </figure>
+          </li>
+          <li class="orbit-slide">
+            <figure class="orbit-figure">
+              <div class="grid-y wh-100 align-center-middle">
+                <div class="cell">
+                    <h1 class="text-center">I'm in the middle!</h1>
+                    <h4 class="text-center subheader">This is our brand</h4>
+                </div>  
+                <div class="cell grid-y align-center-middle">
+                  <a href="tel:" class="button align-self-middle">Contact Us</a>
+                </div>
+              </div>
+              <figcaption class="orbit-caption secondary-color opaque">Outta This World</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+      <nav class="orbit-bullets margin-sm">
+        <button class="is-active" data-slide="0">
+          <span class="show-for-sr">First slide details.</span>
+          <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+        </button>
+        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+    </div>
+
+    <!-- CALL TO ACTION
+    <div class="grid-container section">
+      <div class="grid-y align-center-middle">
+        <div class="cell grid-y align-center-middle">
+          <h2 class="separator">Contact Us today</h2>
+          <a href="tel:" class="button align-self-middle">Contact Us</a>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- TYPES OF WORK -->
+    <div class="grid-container grid-y align-center-middle">
+      <div class="grid-x grid-margin-x" data-equalizer data-equalize-on="medium" id="test-eq">
+        <div class="cell medium-4">
+          <div class="radius bordered shadow card">
+            <img src="css/Images/abstractBackground2.jpg">
+            <div class="card-divider main-color">
+              Painting
+            </div>
+            <div class="card-section grid-y align-center">
+              <h4>This is a card.</h4>
+              <p>It has an easy to override visual style, and is appropriately subdued.</p>
+              <a href="tel:" class="button align-self-middle">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="cell medium-4">
+          <div class="radius bordered shadow card">
+            <img src="css/Images/abstractBackground2.jpg">
+            <div class="card-divider main-color">
+              Spray Painting
+            </div>
+            <div class="card-section grid-y align-center">
+              <h4>This is a card.</h4>
+              <p>It has an easy to override visual style, and is appropriately subdued.</p>
+              <a href="tel:" class="button align-self-middle">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="cell medium-4">
+          <div class="radius bordered shadow card">
+            <img src="css/Images/abstractBackground2.jpg">
+            <div class="card-divider main-color">
+              Specialist Coating
+            </div>
+            <div class="card-section grid-y align-center">
+              <h4>This is a card.</h4>
+              <p>It has an easy to override visual style, and is appropriately subdued.</p>
+              <a href="tel:" class="button align-self-middle">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="grid-container fluid section align-center-middle padding-0">
+      <div class="grid-x grid-margin-x height-75">
+        <div class="cell medium-6 text-center padding-sm">
+          <h1>Delivering Outstanding Quality and Results</h1>
+          <p class="lead margin-sm">Bromley Decorators offer a complete range of painting and decorating services across Hamilton and the Waikato.<br><br> Our painting and decorating services cover both residential and commercial projects. We also undertake plastering, spray-painting and pool coating projects as well.<br><br> If you require an obligation-free quote or want to discuss your decorating requirements, get in touch today.</p>
+          <a href="tel:" class="button">Request a Quote</a>
+        </div>
+        <div class="cell medium-6 show-for-medium">
+          <img src="css/Images/abstractBackground2.jpg" class="wh-100" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div class="grid-container fluid section secondary-color">
+      <div class="grid-container grid-y align-center-middle padding-sm">
+        <div class="cell medium-6 padding-sm">
+          <div class="media-object-section">
+            <div class="third-color">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#81ad5a" class="bi bi-file-person margin-xs" viewBox="0 0 16 16">
+                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="media-object-section">
+            <h4>- Anonymous</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro at, tenetur cum beatae excepturi id ipsa? Esse dolor laboriosam itaque ea nesciunt, earum, ipsum commodi beatae velit id enim repellat.</p>
+          </div>
+        </div>
+        <div class="cell medium-6 padding-sm">
+          <div class="media-object-section">
+            <div class="thumbnailthird-color">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#81ad5a" class="bi bi-file-person-fill margin-xs" viewBox="0 0 16 16">
+                <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="media-object-section">
+            <h4>- Anonymous</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magni, quam mollitia voluptatum in, animi suscipit tempora ea consequuntur non nulla vitae doloremque. Eius rerum, cum earum quae eveniet odio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="grid-container section grid-y align-center-middle">
+      <form data-abide novalidate class="wh-100">
+        <div data-abide-error class="alert callout" style="display: none;">
+          <p><i class="fi-alert"></i> There are some errors in your form.</p>
+        </div>
+        <div class="grid-container">
+          <div class="grid-x grid-margin-x">
+            <div class="cell small-12">
+              <label>Number Required
+                <input type="text" placeholder="1234" aria-describedby="example1Hint1" aria-errormessage="example1Error1" required pattern="number">
+                <span class="form-error">
+                  Required*
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="grid-x grid-margin-x">
+            <div class="cell small-12">
+              <label>Email Required
+                <input type="text" required pattern="email">
+                <span class="form-error" data-form-error-on="required">
+                  Yo, you had better fill this out, it's required.
+                </span>
+                <span class="form-error" data-form-error-on="pattern">
+                  Invalid Email
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="grid-x grid-margin-x">
+            <div class="cell large-12">
+              <label>Your Message:
+                <input type="text">
+              </label>
+              <span class="form-error">
+                I'm required!
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="grid-container">
+          <div class="grid-x grid-margin-x">
+            <fieldset class="cell large-6">
+              <button class="button" type="submit" value="Submit">Submit</button>
+            </fieldset>
+            <fieldset class="cell large-6">
+              <button class="button" type="reset" value="Reset">Reset</button>
+            </fieldset>
+          </div>
+        </div>
+      </form>
+    </div>
+    </div>
+
+    <!-- SOCIALS -->
+    <div class="grid-container fluid section-sm main-color">
+      <div class="grid-x">
+        <div class="cell">
+
+        </div>
+        <div class="cell">
+
+        </div>
+        <div class="cell">
+
+        </div>
       </div>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/what-input/dist/what-input.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/custom.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
